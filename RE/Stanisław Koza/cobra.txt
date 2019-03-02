@@ -1,0 +1,8 @@
+Cobra Ransomware
+
+W zadaniu dany był plik .exe spakowany UPXem
+upx -d cobra.exe powodował błąd, okazało się że plik jest w jakiś sposób uszkodzony
+Udało mi się go naprawić narzędziem upxf.exe naprawiającym uszkodzone upx
+Nastepnie w
+strings cobra_unpacked.exe
+widać było że jest to plik powstały poprzez użycie PyInstallera. Narzędzie pyinstxtractor.py rozpakowało mi skompilowane skrypty pythona, następnie uncompyle na pliku cobra.pyc dawało oryginalny skrypt pythona z którego łatwo dało się wyciągnąć hasło do programu: a34gEfa2

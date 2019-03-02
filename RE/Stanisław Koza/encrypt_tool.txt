@@ -1,0 +1,3 @@
+Encrypt Tool
+
+Zaczałem testować jakie wyniki program zwraca dla prostych plików (A,AB,AAA, ABAAAAB, AAA......AAAA) okazało się że jest to prosty szyfr podstawieniowy. Wystarczyło napisać program uruchamiający dane .exe dla plików wejściowych rozmiaru jednego bajtu i zrobić mapę wszystkich bajtów na ich kodowanie. Następnie z użyciem takiej mapy łatwo dało się rozkodować plik dany w zadaniu.
